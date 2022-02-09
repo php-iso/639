@@ -12,6 +12,8 @@ composer require php-iso/iso-639
 
 ## Usage
 ```php
+use \PhpIso\ISO639\ISO639_1;
+
 ISO639_1::isExists('fa') //true
 ISO639_1::isExists('foo') //false
 
